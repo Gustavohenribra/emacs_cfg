@@ -1,6 +1,0 @@
-(undo-tree-save-format-version . 1)
-"0d2c5b7708e1798f83c3c767353a402dd4c06c0f"
-[nil nil nil nil (26109 29556 28538 0) 0 nil]
-([nil nil ((#("true" 0 4 (face web-mode-constant-face part-side jsx)) . -520) (undo-tree-id0 . -4) (undo-tree-id1 . -4) (undo-tree-id2 . -4) (undo-tree-id3 . -4) (undo-tree-id4 . -4) (undo-tree-id5 . -4) (undo-tree-id6 . -4) (undo-tree-id7 . -4) (undo-tree-id8 . -4) (undo-tree-id9 . -4) (undo-tree-id10 . -4) (undo-tree-id11 . -4) (undo-tree-id12 . -4) (undo-tree-id13 . -4) (undo-tree-id14 . -4) (undo-tree-id15 . -4) 524 (t 26105 61458 0 0)) nil (26109 29556 28534 0) 0 nil])
-([nil current ((520 . 525)) nil (26109 29556 28485 0) 0 nil])
-nil

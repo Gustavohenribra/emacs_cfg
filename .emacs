@@ -38,7 +38,7 @@
 (advice-add 'move-text-down :after 'indent-region-advice)
 
 ;; Appearance
-(set-frame-font "Hack-14" nil t)
+(set-frame-font "EnvyCodeR Nerd Font-18" nil t)
 (tool-bar-mode 0)
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
@@ -136,7 +136,20 @@
   :init
   (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
   :config
+  (lsp-register-custom-settings
+   '(("pyls.plugins.pyls_mypy.enabled" t t)
+     ("pyls.plugins.pyls_mypy.live_mode" nil t)
+     ("pyls.plugins.pyls_black.enabled" t t)
+     ("pyls.plugins.pyls_isort.enabled" t t)))  
   (lsp-enable-which-key-integration t))
+
+(use-package lsp-pyright
+  :ensure t
+  :hook (python-mode . (lambda ()
+                          (require 'lsp-pyright)
+                          (lsp))))  ; or lsp-deferred
+
+(setq python-indent-guess-indent-offset-verbose nil)
 
 (use-package lsp-ui
   :hook (lsp-mode . lsp-ui-mode))
@@ -144,6 +157,7 @@
 (setq lsp-ui-sideline-enable nil)
 (setq lsp-ui-sideline-show-hover nil)
 (setq lsp-signature-render-documentation nil)
+(setq lsp-headerline-breadcrumb-enable nil)
 (global-set-key (kbd "M-d ") 'lsp-ui-doc-show)
 
 (use-package lsp-treemacs

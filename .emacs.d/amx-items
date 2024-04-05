@@ -1,0 +1,38 @@
+
+;; ----- amx-history -----
+(
+ magit
+ eval-buffer
+ eglot
+ lsp
+ python-ts-mode
+ compile
+ lsp-treemacs-symbols
+)
+
+;; ----- amx-data -----
+(
+ (list-packages . 6)
+ (help . 1)
+ (eval-buffer . 73)
+ (eval-region . 1)
+ (ag-project . 10)
+ (compile . 183)
+ (ibuffer . 2)
+ (package-install . 3)
+ (package-delete . 3)
+ (pyvenv-activate . 6)
+ (pyvenv-mode . 1)
+ (pyvenv-create . 13)
+ (pyvenv-workon . 3)
+ (python-mode . 7)
+ (forward-page . 1)
+ (lsp . 7)
+ (lsp-install-server . 5)
+ (python-ts-mode . 3)
+ (describe-key . 1)
+ (describe-mode . 2)
+ (lsp-treemacs-symbols . 1)
+ (eglot . 5)
+ (magit . 1)
+)
