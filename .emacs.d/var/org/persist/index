@@ -1,0 +1,9 @@
+((:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b5/f6bdd8-6193-48cf-8b65-41f802063d51" :associated
+  (:hash "d41d8cd98f00b204e9800998ecf8427e" :file "c:/Users/Gusta/.emacs.d/var/treemacs/persist.org")
+  :expiry 30)
+ (:container
+  ((index "3.1"))
+  :persist-file "8d/cc841a-d80c-4e5e-8d1f-b1f466303639" :associated nil :expiry never))
